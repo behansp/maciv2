@@ -32,6 +32,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "gripper = maciv2.maciv2:main",
+            "node = maciv2.simple:main"          
         ],
     },
 )
